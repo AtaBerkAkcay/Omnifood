@@ -1,0 +1,120 @@
+.pricing-section {
+  padding: 9.6rem 0;
+}
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-card {
+  border: 0.2rem solid #fdf2e9;
+  border-radius: 12px;
+  padding: 4.8rem 6.4rem;
+  text-align: center;
+  justify-self: end;
+}
+
+.pricing-card--filled {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 5rem 6.6rem;
+  justify-self: start;
+}
+
+.pricing-card--filled::before {
+  content: "Best value";
+  display: inline-block;
+  top: 2.5rem;
+  right: -4.5rem;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #222;
+  background-color: #ffd43b;
+  transform: rotate(45deg);
+  padding: 0.8rem 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.plan-price {
+  font-size: 6.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.plan-price span {
+  font-size: 3.2rem;
+  margin-right: 0.8rem;
+}
+
+.plan-small-text {
+  color: #777;
+  font-size: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.plan-features {
+  list-style: none;
+  margin-bottom: 4.8rem;
+}
+
+.plan-list-item {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.plan-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.plan-feature {
+  font-size: 1.8rem;
+}
+
+.pricing-info {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.icon-container {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+}

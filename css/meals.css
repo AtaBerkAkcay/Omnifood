@@ -1,0 +1,111 @@
+.meals-section {
+  padding: 9.6rem 0;
+}
+
+.meals-and-diets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+  align-items: start;
+  margin-bottom: 4.8rem;
+}
+
+.meals-and-diets > div {
+  flex: 1;
+}
+
+.meals-section h3,
+.meals-section h2 {
+  text-align: center;
+}
+
+.meal-card {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0.4rem 3.2rem rgba(0, 0, 0, 0.07);
+  transition: all 0.3s;
+}
+
+.meal-card:hover {
+  box-shadow: 0 0.4rem 3.2rem rgba(0, 0, 0, 0.05);
+  transform: translateY(-10px);
+}
+
+.meal-image {
+  display: block;
+  width: 100%;
+}
+
+.meal-card-text-box {
+  padding: 3.2rem 4.8rem 4.8rem;
+}
+
+.meal-tag {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  border-radius: 12px;
+  padding: 0.4rem 0.8rem;
+  letter-spacing: 0.25px;
+}
+
+.meal-tag--vegetarian {
+  background-color: #51cf66;
+}
+
+.meal-tag--vegan {
+  background-color: #94d82d;
+}
+
+.meal-tag--paleo {
+  background-color: #ffd43b;
+}
+
+.meal-card-text-box h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0.8rem 0 2.4rem;
+}
+
+.meals-and-diets ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.meals-and-diets li {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.meals-and-diets li p {
+  font-size: 1.8rem;
+}
+
+.diet-list-headline {
+  font-size: 3.1rem;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.all-recipes-link:link,
+.all-recipes-link:visited {
+  color: #e67e22;
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0 1px 0 0 #e67e22;
+}
+
+.all-recipes-link:hover,
+.all-recipes-link:active {
+  box-shadow: 0 0 0 0 #e67e22;
+}
+
+.all-recipes-link-container {
+  text-align: center;
+}

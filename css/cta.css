@@ -1,0 +1,89 @@
+.cta-section {
+  padding: 4.8rem 0 12.8rem;
+}
+
+.form-box {
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0.8rem 3.2rem rgba(0, 0, 0, 0.2);
+}
+
+.form-text-box {
+  padding: 4.8rem 6.4rem;
+}
+
+.form-title {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+  font-size: 4.306rem;
+}
+
+.form-text {
+  color: #45260a;
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.form-image {
+  background-image: linear-gradient(to right bottom, #eb984e80, #e67e2280), url(../img/eating.jpg);
+  background-size: cover;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.2rem;
+  column-gap: 4.8rem;
+}
+
+label {
+  display: block;
+  color: #45260a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+input,
+select {
+  width: 100%;
+  font-family: Rubik, sans-serif;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s;
+  font-size: 1.8rem;
+  color: #45260a;
+  opacity: 0.9;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+form div:last-child {
+  align-self: end;
+}
+
+input[type="submit"] {
+  background-color: #2e1907;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #444;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+}
